@@ -178,6 +178,12 @@ footer{
   width: 150px;
 }
 
+.flexbox{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .contact{
   display: flex;
   flex-direction: column;
@@ -197,7 +203,14 @@ footer{
   font-size: 0.85rem;
 }
 
-ul{
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+li{
+  list-style: none;
   padding: 0;
   font-size: 0.85rem;
   cursor: pointer;
@@ -205,7 +218,7 @@ ul{
   width: fit-content;
   text-wrap: nowrap;
 }
-ul::after{
+li::after{
   position: absolute;
   content: '';
   width: 0%;
@@ -216,7 +229,7 @@ ul::after{
   background-color: white;
   transition: all 0.25s ;
 }
-ul:hover::after{
+li:hover::after{
   width: 100%;
 }
 
@@ -254,7 +267,7 @@ ul:hover::after{
     width: 200px;
   }
   .flexbox{
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
   }
@@ -267,7 +280,7 @@ ul:hover::after{
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2.5rem;
   }
-  ul{
+  li{
     margin: 0;
     margin-left: clamp(0rem, 5vw - 0.1rem, 5rem);
     height: fit-content;
