@@ -164,7 +164,7 @@ h2{
 footer{
   background-color: var(--very-dark-cyan);
   color: white;
-  padding-block: 7.5rem 2rem;
+  padding-block: 7.5rem 3rem;
   padding-inline: clamp(1rem, 10vw - 1rem, 8rem);
 }
 
@@ -203,7 +203,9 @@ footer{
   font-size: 0.85rem;
 }
 
-.links{
+ul{
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -274,7 +276,7 @@ li:hover::after{
   .contact{
     flex: 1;
   }
-  .links{
+  ul{
     flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -369,7 +371,7 @@ li:hover::after{
   .flexbox{
     gap: 4rem;
   }
-  .links{
+  ul{
     margin-left: 1rem;
   }
 }
