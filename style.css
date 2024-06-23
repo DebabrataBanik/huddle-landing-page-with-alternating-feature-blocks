@@ -62,7 +62,7 @@ header{
   background: white;
   padding-block: clamp(0.3rem, 1vw - 0.1rem, 1rem);
   border-radius: 2rem;
-  box-shadow: 0px 2px 30px -10px var(--very-dark-cyan);
+  box-shadow: 0px 2px 20px -10px var(--grayish-blue);
   transition: all 0.25s;
   cursor: pointer;
 }
@@ -304,6 +304,9 @@ ul:hover::after{
   }
   header{
     padding-inline: 6rem;
+  }
+  .header-btn{
+    font-size: 0.65rem;
   }
   .hero__section{
     width: 85%;
