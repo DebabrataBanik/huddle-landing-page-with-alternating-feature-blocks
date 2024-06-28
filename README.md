@@ -6,7 +6,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 - [Screenshot](#screenshot)
 - [Links](#links)
-- [Built With](#built-with)
+- [Built with](#built-with)
 
 ### Screenshot
 
@@ -17,7 +17,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 - [Live Site URL](https://debabratabanik.github.io/huddle-landing-page-with-alternating-feature-blocks/)
 - [Challenge Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-nPGxKuVi0w)
 
-### Built With
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
